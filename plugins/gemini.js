@@ -3,7 +3,7 @@ const { bot, gemini } = require('../lib')
 
 bot(
   {
-    pattern: 'gemini ?(.*)',
+    pattern: 'Fox ?(.*)',
     desc: 'google gemini',
     type: 'ai',
   },
@@ -16,7 +16,7 @@ bot(
 
     if (!match) {
       return await message.send(
-        '*Example :*\ngemini hi\ngemini what is in the picture(reply to a image)'
+        '*Example :*\nFox hi\ngemini what is in the picture(reply to a image)'
       )
     }
 
